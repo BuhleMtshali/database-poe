@@ -29,17 +29,18 @@
 <div class="form">
 <h1>Get in touch</h1>
 <small>Got a question about our products? Want to know more about ? Drop your details below</small>
-<form>
+<form for="formElement" name="formElement" id="formElement">
 <label for="name">Name</label>
-<input type="text" placeholder="e.g Cindy" id="name">
+<input type="text" placeholder="e.g Cindy" id="name" required>
 <label for="lastName">Last Name</label>
-<input type="text" name="lastName" id="lastName" placeholder="Crawford">
+<input type="text" id="lastName" placeholder="Crawford"xrequired >
 <label for="number">Contact Number</label>
-<input type="number" name="number" id="number" placeholder="0812346734">
+<input type="number" name="number" id="number" placeholder="0812346734" required>
 <label for="email">Email</label>
-<input type="email" placeholder="cindy@crew.co.za">
+<input type="email" placeholder="cindy@crew.co.za" required>
 <button id="submit">Submit</button>
 </form>
 </div>
+<script src="index.js"></script>
 </body>
 </html>
