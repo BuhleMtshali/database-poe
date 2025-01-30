@@ -28,19 +28,19 @@
 </nav>
 <div class="form">
 <h1>Get in touch</h1>
-<small>Got a question about our products? Want to know more about ? Drop your details below</small>
-<form for="formElement" name="formElement" id="formElement">
+<small id="text">Got a question about our products? Want to know more about ? Drop your details below</small>
+<form name="formElement" id="formElement">
 <label for="name">Name</label>
-<input type="text" placeholder="e.g Cindy" id="name" required>
+<input type="text" placeholder="e.g Cindy" id="name" name="name" required>
 <label for="lastName">Last Name</label>
-<input type="text" id="lastName" placeholder="Crawford"xrequired >
+<input type="text" id="lastName" name="lastName" placeholder="Crawford" required >
 <label for="number">Contact Number</label>
 <input type="number" name="number" id="number" placeholder="0812346734" required>
 <label for="email">Email</label>
-<input type="email" placeholder="cindy@crew.co.za" required>
-<button id="submit">Submit</button>
+<input type="email" id="email" name="email" placeholder="cindy@crew.co.za" required>
+<button type="submit" id="submit">Submit</button>
 </form>
 </div>
-<script src="index.js"></script>
+<script src="index.js" type="module"></script>
 </body>
 </html>
