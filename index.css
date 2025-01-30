@@ -58,10 +58,36 @@ button{
     border: none;
     font-family: "Berkshire Swash", serif;
     font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 .contact-btn{
     background-color: var(--contact-btn);
 }
+.contact-btn:hover{
+    background-color: var(--body-bg);
+    color: var(--heading-color);
+}
 .shop-btn{
     background-color: var(--shop-btn);
+}
+
+.main-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 7rem;
+    position: relative;
+    font-weight: 400;
+    top: 70px;
+    color: var(--heading-color);
+    text-align: center;
+}
+
+.bottom-text{
+    color: var(--heading-color);
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    top: 270px;
+    font-size: 2rem;
 }
