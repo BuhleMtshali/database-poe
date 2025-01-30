@@ -101,3 +101,48 @@ button{
 .contact-bg nav{
     background-color: var(--body-bg);
 }
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+small{
+    font-size: 1.2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+}
+*:focus{
+outline: none;
+}
+
+label{
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+input{
+    padding: 13px 24px;
+    border: none;
+    border-radius: 12px;
+}
+::placeholder{
+    font-size: 1rem;
+}
+#submit{
+    padding:8px 16px;
+    margin-top: 15px;
+    background-color: var(--body-bg);
+    color: var(--heading-color);
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+#submit:hover{
+    background-color: var(--heading-color);
+    color: var(--body-bg);
+}
