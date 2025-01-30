@@ -7,7 +7,7 @@
     --contact-heading-color:#000000;
 }
 
-body{
+.main-bg, .contact-bg{
     background-color: var(--body-bg);
     font-family: "Berkshire Swash", serif;
     overflow: hidden;
@@ -91,4 +91,13 @@ button{
     top: 270px;
     font-size: 2rem;
     font-weight: 400;
+}
+
+/* contact styling */
+.contact-bg{
+    background-color: var(--contact-bg);
+}
+
+.contact-bg nav{
+    background-color: var(--body-bg);
 }
