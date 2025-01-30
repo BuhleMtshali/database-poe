@@ -7,6 +7,8 @@
     --contact-heading-color:#000000;
 }
 
-/* body{
-    background-color: ;
-} */
+body{
+    background-color: var(--body-bg);
+    font-family: "Berkshire Swash", serif;
+    
+}
