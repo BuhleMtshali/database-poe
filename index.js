@@ -19,6 +19,7 @@ const nameValue = document.getElementById('name');
 const lastName = document.getElementById('lastName');
 const numbervalue = document.getElementById('number');
 const emailValue = document.getElementById('email')
+let textElement = document.getElementById('text')
 const formElement = document.getElementById('formElement')
 
 //submiting the form
@@ -48,7 +49,7 @@ function pushToFirebase(formData){
 
     set(newFormEntry, formData)
     .then(() => {
-        console.log('data saved successfuly')
+        textElement.textContent = `Thank you for reaching out ${formData.nameValue}, We'll get in touch soon!`
     })
     .catch((error) => {
         console.error('error saving file')
